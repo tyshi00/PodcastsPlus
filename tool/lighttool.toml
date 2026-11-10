@@ -1,0 +1,12 @@
+[tool]
+id = "com.tyshi00.lightpods"
+label = "Podcasts+"
+versionCode = 1
+versionName = "1.0.0"
+permissions = ["android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.WAKE_LOCK"]
+capabilities = ["detached-audio"]
+orientation = "portrait"
+# LP3 hardware
+serverPackage = "com.lightos"
+# emulator
+# serverPackage = "com.thelightphone.sdk.emulator"
